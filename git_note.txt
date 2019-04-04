@@ -1,0 +1,41 @@
+//参考 https://www.cnblogs.com/baby-blue/p/6130569.html
+
+1：本地目录
+git init
+
+2：本地提交
+git add
+git commit
+
+3：推送到远程
+3.1 先绑定远程主机
+git remote add origin git://github.com/someone/another_project.git
+
+可查看配置文件(config)，会多出如下配置
+
+[remote "origin"]
+	
+	url = git@github.com:shenbaoNew/Note.git
+	
+	fetch = +refs/heads/*:refs/remotes/origin/*
+
+3.2 执行推送
+git push origin master
+
+
+
+
+…or create a new repository on the command line
+echo "# Note" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:shenbaoNew/Note.git
+git push -u origin master
+
+
+…or push an existing repository from the command line
+git remote add origin git@github.com:shenbaoNew/Note.git
+git push -u origin master
+
+
