@@ -1,1 +1,1 @@
-一个简单的restfull service 实例
+一个简单的restfull service 实例.
