@@ -17,3 +17,5 @@ C:\Users\shenbao.DIGIWIN.000\AppData\Roaming\npm\node_modules\@angular
 npm install -g @angular/cli
 
 https://github.com/lmk123/blog/issues/28
+
+https://segmentfault.com/a/1190000009771946
